@@ -1,11 +1,10 @@
-# Dreamscape exam
 ## Usage steps
 1. Clone this repo
 2. Install laravel dependencies: `composer install`
 3. Install client side packages: `npm install`
 4. Change the database info from the `.env` file (create the database)
-    > DB_DATABASE=applicants
-    > DB_USERNAME=homebrew
+    > DB_DATABASE=applicants  
+    > DB_USERNAME=homebrew  
     > DB_PASSWORD=homebrew
 5. Run the migration: `php artisan migrate`
 6. (Optional) Seed the database: `php artisan db:seed`
